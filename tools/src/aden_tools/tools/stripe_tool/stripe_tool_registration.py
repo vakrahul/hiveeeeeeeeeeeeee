@@ -22,7 +22,7 @@ def register_tools(mcp: FastMCP, credentials=None) -> None:
                      Stripe reads from STRIPE_API_KEY environment variable)
     """
     try:
-        # Initialize Stripe tool
+        # Initialize Stripe tools
         stripe_tool = StripeTool()
 
         # Register all Stripe methods as FastMCP tools

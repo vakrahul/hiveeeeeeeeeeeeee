@@ -121,7 +121,7 @@ __all__ = [
     "add_env_var_to_shell_config",
     # Merged registry
     "CREDENTIAL_SPECS",
-    # Category registries (for direct access if needed)
+    # Category registriess (for direct access if needed)
     "LLM_CREDENTIALS",
     "NEWS_CREDENTIALS",
     "SEARCH_CREDENTIALS",
