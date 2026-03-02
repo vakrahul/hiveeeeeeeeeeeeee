@@ -130,9 +130,7 @@ def tui(verbose, debug):
     # Check Resend key for email notifications
     resend_key = os.environ.get("RESEND_API_KEY", "").strip()
     if not resend_key:
-        print(
-            "\n  ℹ RESEND_API_KEY not set — email notifications will be unavailable."
-        )
+        print("\n  ℹ RESEND_API_KEY not set — email notifications will be unavailable.")
         resend_input = input(
             "  Enter Resend API key (or press Enter to skip): "
         ).strip()
@@ -157,7 +155,7 @@ def tui(verbose, debug):
         jd_lines.append(line)
     job_description = "\n".join(jd_lines).strip()
 
-    # 2. Resume PDF path
+    # 2. Resume PDF patha
     print("\n🐝 [2/3] Resume File Path")
     while True:
         resume_path = (
